@@ -7,4 +7,4 @@ def hello_name():
   return 'Hello'
 
 if __name__ == '__main__':
-  app.run(host="216.24.57.4")
+  app.run(host="0.0.0.0", debug=True)
