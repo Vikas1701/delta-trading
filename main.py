@@ -7,4 +7,4 @@ def hello_name():
   return 'Hello'
 
 if __name__ == '__main__':
-  app.run()
+  app.run(host="delta-trading.onrender.com")
